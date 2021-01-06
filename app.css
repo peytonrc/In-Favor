@@ -1,3 +1,26 @@
-h1 {
-    color: blue;
+body {
+    background-color: black;
+}
+
+li {
+list-style: none;
+}
+
+img {
+    width: 100px;
+    height: 50px;
+}
+
+#logo {
+    padding: 15px 0px;
+    text-align: center;
+    background-color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    }
+
+.bg-primary {
+    background-color: rgb(37, 37, 165)!important;
 }
