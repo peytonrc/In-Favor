@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 li {
@@ -70,4 +71,24 @@ a.nav-link:nth-child(4) {
     .navCol {
     display: none;
     }
+ }
+
+ .container-fluid .col-lg-6.col-md-12 {
+     margin: auto;
+ }
+
+ .container-fluid .col-lg-6.col-md-12 {
+    height: 100%;
+    margin: auto;
+}
+
+ #bg {
+    background-position: left;
+	background-repeat: no-repeat;
+    height: 100%;
+    background-image: url('assets/Jime\ Homepage\ Pic.png');
+ }
+
+ #form {
+     padding: 200px;
  }

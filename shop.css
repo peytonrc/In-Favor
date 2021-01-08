@@ -73,19 +73,17 @@ a.nav-link:nth-child(4) {
     }
 }
 
-.container {  
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.container {
+    margin-top: 60px;
+    padding: 0;
 }
 
-.item {
-    padding: 20px;
-   
+.container .card {
+	margin: 30px auto;
 }
 
-#photo {
-width: 300px;
-height: 350px;
+h5 {
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 10px;
 }
