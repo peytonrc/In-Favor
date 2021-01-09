@@ -1,9 +1,5 @@
 body {
-    background-image: url('assets/Gradient\ Background.png');
-    background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-    background-attachment: fixed;
+    background-color: black;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -19,11 +15,8 @@ img {
 #logo {
     padding: 15px 0px;
     text-align: center;
-    background-image: url('assets/Gradient\ Background.png');
-    background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+    background-color: #EEE6DE;
+
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -37,7 +30,7 @@ img {
     }
 
 .bg-primary {
-    background-color: rgb(37, 37, 165)!important;
+    background-color: #9A8A73!important;
     
 }
 
@@ -73,7 +66,7 @@ a.nav-link:nth-child(4) {
     }
 }
 
-.container {  
+/* .container {  
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -88,4 +81,11 @@ a.nav-link:nth-child(4) {
 #photo {
 width: 300px;
 height: 350px;
+} */
+
+.row {
+    height: 50%;
+    
 }
+
+

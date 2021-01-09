@@ -1,6 +1,6 @@
 body {
-    background-color: black;
     font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
 
 li {
@@ -15,11 +15,7 @@ img {
 #logo {
     padding: 15px 0px;
     text-align: center;
-    background-image: url('assets/Gradient\ Background.png');
-    background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+    background-color: #EEE6DE;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -33,7 +29,7 @@ img {
     }
 
 .bg-primary {
-    background-color: rgb(37, 37, 165)!important;
+    background-color: #9A8A73!important;
     
 }
 
@@ -50,7 +46,6 @@ div#navbarNavAltMarkup.collapse.navbar-collapse {
    
 }
 
-  
 a.nav-link:last-child {
     position: absolute;
     right: 10px;
@@ -73,22 +68,48 @@ a.nav-link:nth-child(4) {
     }
  }
 
- .container-fluid .col-lg-6.col-md-12 {
-     margin: auto;
+
+ h2 {
+    color: white;
+ }
+ .container-fluid {
+    padding: 0;
+    
  }
 
- .container-fluid .col-lg-6.col-md-12 {
-    height: 100%;
-    margin: auto;
+ .container-fluid form {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    margin: auto; 
+    width: 60%;
+    height: auto;
+ }
+
+ .container-fluid img {
+   width: 100%;
+   height: auto;
+ }
+
+ #btn {
+    margin-top: 15px;
+    margin-left: 0;
+	padding: 5px 30px;
+ }
+ #btn:hover {
+	background-color: #70716f;
+	transition: .5s;
+	opacity: .6;
 }
 
- #bg {
-    background-position: left;
-	background-repeat: no-repeat;
-    height: 100%;
-    background-image: url('assets/Jime\ Homepage\ Pic.png');
- }
+label {
+    color: white;
+}
 
- #form {
-     padding: 200px;
- }
+
+
+
+ 
+
+
+ 
+ 
