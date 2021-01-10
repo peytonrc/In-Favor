@@ -1,8 +1,11 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
 
-
+li {
+list-style: none;
+}
 
 img {
     width: 250px;
@@ -13,7 +16,6 @@ img {
     padding: 15px 0px;
     text-align: center;
     background-color: #EEE6DE;
-
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -31,16 +33,11 @@ img {
     
 }
 
-button {
-    margin-left: 25px;
-}
-
 div#navbarNavAltMarkup.collapse.navbar-collapse {
     justify-content: center;
    
 }
 
-  
 a.nav-link:last-child {
     position: absolute;
     right: 10px;
@@ -61,46 +58,11 @@ a.nav-link:nth-child(4) {
     .navCol {
     display: none;
     }
-}
+ }
 
-#photo {
-    margin: auto;
-	display: flex;
-	justify-content: center;
-}
+ h1 {
+    margin-top: 100px;
+    color: white;
+    text-align: center;
 
-#pic {
-    height: 250px;
-    width: 350px;
-    margin-top: 50px;
-}
-
-/* #top {
-    font-size: 12px;
-    padding: 40px;
-    color: #EEE6DE;
-}
-
-p {
-    padding-left: 20px;
-}
-
-#bottom {
-    font-size: 14px;
-}
-
-#photo{
-    margin: auto;
-	display: flex;
-	justify-content: center;
-	
-}
-
-@media (max-width: 992px) {
-    #top, #bottom, p, ul {
-        font-size: 10px;
-    }
-
-} */
-
-
+ }
