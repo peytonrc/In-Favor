@@ -33,19 +33,22 @@ img {
     
 }
 
+button {
+    margin-left: 25px;
+}
+
+form.col-sm-6 {
+   padding: 40px;
+}
+
 div#navbarNavAltMarkup.collapse.navbar-collapse {
     justify-content: center;
    
 }
 
-a.nav-link:last-child {
+a.nav-link:nth-child(5) {
     position: absolute;
     right: 10px;
-}
-
-a.nav-link:nth-child(4) {
-    position: absolute;
-    right: 50px;
 }
 
 @media (max-width: 991px){
