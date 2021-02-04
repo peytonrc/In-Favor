@@ -83,14 +83,8 @@ a.nav-link:nth-child(6) {
     
 } */
 
-
-
-video {
-    display:block;
-    width: 400px;
-    height: 400px;
-    margin: 0 auto;
-    padding: 20px;
+span {
+    color: rgba(28, 132, 236, 0.908);
 }
 
 div iframe {
