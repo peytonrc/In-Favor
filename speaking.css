@@ -1,6 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: black;
+    background-color: #EEE6DE;
+}
+
+h2 {
+    font-weight: bolder;
 }
 
 li {
@@ -67,3 +71,32 @@ a.nav-link:nth-child(6) {
  h2 {
     color: white;
  }
+
+ .container-fluid {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  #mic {
+        object-fit: cover;
+        width: 50px;
+        height: 100px;
+      
+  }
+
+  #title {
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  @media (max-width: 750px){
+    #title {
+    font-size: 50px;
+
+    }
+}
