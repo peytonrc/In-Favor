@@ -12,11 +12,11 @@ img {
     height: 150px;
 }
 
-#logo {
+/* #logo {
     padding: 15px 0px;
     text-align: center;
     background-color: #EEE6DE;
-}
+} */
 
 .navbar-light .navbar-nav .nav-link {
     color: white;
@@ -63,18 +63,12 @@ a.nav-link:nth-child(6) {
     }
  }
 
-
- h2 {
-    color: white;
- }
  .container-fluid {
     padding: 0;
     
  }
 
  .container-fluid form {
-    padding-top: 100px;
-    padding-bottom: 20px;
     margin: auto; 
     width: 60%;
     height: auto;
@@ -100,9 +94,26 @@ label {
     color: white;
 }
 
+div.jumbotron.jumbotron-fluid {
+    margin: 0;
+    background-color: #EEE6DE;
+}
 
+ div.col-lg-6.col-md-12{
+    display: flex;
+    align-items: center 
+}
 
+form {
+    padding: 30px 0px;
+    
+}
 
+#form {
+    color: white;
+    font-size: 22px;
+
+}
 
  
 
