@@ -148,6 +148,12 @@ div iframe {
     }
  }
 
+ @media (max-width: 600px){
+    #videos, #info {
+    padding: 0px 50px 50px 50px;
+    }
+ }
+
  .accordion-body {
      padding-left: 50px;
  }

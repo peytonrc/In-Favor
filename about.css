@@ -157,3 +157,13 @@ a.nav-link:nth-child(6) {
       text-align: left;
       padding-left: 50px;
   }
+
+  @media (max-width: 840px){
+    #contain{
+    padding: 30px;
+    }
+
+    #who {
+        padding-top: 30px;
+    }
+ }
