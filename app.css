@@ -3,70 +3,39 @@ body {
     background-color: black;
 }
 
-
-li {
-list-style: none;
+#nav-logo {
+    width: 90px;
+    height: 50px;
 }
 
-img {
+#jumbo-logo {
     width: 250px;
     height: 150px;
+} 
+
+.nav-link {
+    font-weight: bold;
 }
 
-/* #logo {
-    padding: 15px 0px;
-    text-align: center;
-    background-color: #EEE6DE;
-} */
+.nav-link.active-page {
+    text-decoration: underline;
+}
 
-.navbar-light .navbar-nav .nav-link {
-    color: white;
-    padding: 7px 30px;
-    }
-
-.navbar-light .navbar-nav .nav-link:hover {
-    color: black;
-    transition: .6s;
-    }
-
-.bg-primary {
-    background-color: #9A8A73!important;
-    
+#navv {
+    background-color: rgb(222, 222, 222);
 }
 
 button {
     margin-left: 25px;
 }
 
-form.col-sm-6 {
-   padding: 40px;
-}
-
-div#navbarNavAltMarkup.collapse.navbar-collapse {
-    justify-content: center;
-   
-}
-
-a.nav-link:nth-child(6) {
-    position: absolute;
-    right: 10px;
-}
-
-@media (max-width: 991px){
-    .navExtend {
-    display: none;
-    }
-}
- 
-@media (min-width: 992px){
-    .navCol {
-    display: none;
-    }
- }
-
  .container-fluid {
     padding: 0;
     
+ }
+
+ #center {
+     margin-bottom: 60px;
  }
 
  .container-fluid form {
@@ -97,7 +66,7 @@ label {
 
 div.jumbotron.jumbotron-fluid {
     margin: 0;
-    background-color: #EEE6DE;
+    background-color: white;
 }
 
  div.col-lg-6.col-md-12{
@@ -117,8 +86,17 @@ form {
 
 }
 
- 
+footer {
 
+    position:fixed;
+    
+    left: 0;
+    
+    right: 0;
+    
+    bottom: 0;
+    
+    }
 
  
  

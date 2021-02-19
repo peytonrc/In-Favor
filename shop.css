@@ -1,10 +1,15 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: black;
+html {
+
+    height: 100%;
 }
 
-li {
-list-style: none;
+body {
+
+font-family: 'Roboto', sans-serif;
+background-image: url("assets/watercolor-paper-texture.jpg");  
+background-position: center center;
+
+
 }
 
 img {
@@ -12,55 +17,35 @@ img {
     height: 150px;
 }
 
-#logo {
-    padding: 15px 0px;
-    text-align: center;
-    background-color: #EEE6DE;
+#nav-logo {
+    width: 90px;
+    height: 50px;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: white;
-    padding: 7px 30px;
-    }
+#jumbo-logo {
+    width: 250px;
+    height: 150px;
+} 
 
-.navbar-light .navbar-nav .nav-link:hover {
-    color: black;
-    transition: .6s;
-    }
+.nav-link {
+    font-weight: bold;
+}
 
-.bg-primary {
-    background-color: #9A8A73!important;
-    
+.nav-link.active-page {
+    text-decoration: underline;
+}
+
+#navv {
+    background-color: rgb(222, 222, 222);
 }
 
 button {
     margin-left: 25px;
 }
 
-form.col-sm-6 {
-   padding: 40px;
-}
-
-div#navbarNavAltMarkup.collapse.navbar-collapse {
-    justify-content: center;
-   
-}
-
-a.nav-link:nth-child(6) {
-    position: absolute;
-    right: 10px;
-}
-
-@media (max-width: 991px){
-    .navExtend {
-    display: none;
-    }
-}
- 
-@media (min-width: 992px){
-    .navCol {
-    display: none;
-    }
+ .container-fluid {
+    padding: 0;
+    
  }
 
 .container {
@@ -69,24 +54,38 @@ a.nav-link:nth-child(6) {
 }
 
 .container .card {
+    border: none;
     margin: 30px auto;
-    background-color: black;
+    background-color: transparent;
 }
 
 h5 {
-    color: white;
+    color: black;
     text-align: center;
-    font-size: 13px;
+    font-size: 18px;
     padding-bottom: 10px;
 }
 
 .btn {
     border: none;
     color: black;
-    background-color: #EEE6DE;
+    background-color: rgb(222, 222, 222);
 }
 
 .btn:hover {
     color: black;
     background-color: lightgrey;
 }
+
+footer {
+
+    position:fixed;
+    
+    left: 0;
+    
+    right: 0;
+    
+    bottom: 0;
+    
+    }
+    
