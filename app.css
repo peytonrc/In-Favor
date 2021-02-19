@@ -4,6 +4,7 @@ body {
 }
 
 #nav-logo {
+    margin-left: 15px;
     width: 90px;
     height: 50px;
 }

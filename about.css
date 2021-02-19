@@ -8,6 +8,7 @@ div.container-fluid {
 }
 
 #nav-logo {
+    margin-left: 15px;
     width: 90px;
     height: 50px;
 }
@@ -74,7 +75,7 @@ div.container-fluid {
 
   #name {
       font-weight: bold;
-      color: rgb(234, 36, 36);
+      color: rgb(195, 21, 21);
   }
 
   #one {
@@ -97,7 +98,7 @@ div.container-fluid {
   }
 
   h3 {
-      color: rgb(234, 36, 36);
+      color: rgb(195, 21, 21);
   }
 
   #jim {
