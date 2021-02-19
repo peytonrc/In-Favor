@@ -49,6 +49,7 @@ span {
 }
 
 div iframe {
+    padding: 20px;
     display:block;
     width: 250px;
     height: 300px;
