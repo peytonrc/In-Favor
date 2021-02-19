@@ -48,15 +48,19 @@ span {
     color: rgb(195, 21, 21);
 }
 
-div iframe {
+#welcome {
+    display: block;
+    margin: 0 auto;
+}
+
+#teach {
     padding: 20px;
     display:block;
-    width: 250px;
-    height: 300px;
+    width: 270px;
+    height: 350px;
     margin: 0 auto;
     
 }
-
 
 .banner {
     text-align: center;
@@ -72,6 +76,7 @@ div iframe {
 #videos {
     margin-bottom: 60px;
 }
+
 
 .btn {
     border: none;
@@ -142,4 +147,11 @@ footer {
     
     bottom: 0;
     
+}
+
+@media (max-width: 600px){
+    #welcome, #teach {
+        width: 300px;
+
     }
+}
