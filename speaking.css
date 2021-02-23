@@ -54,7 +54,7 @@ img {
      background-color: white;
  }
 
- .container-fluid {
+#head {
     margin: 0 auto;
     position: relative;
     text-align: center;
@@ -98,4 +98,5 @@ footer {
     
     bottom: 0;
     
-    }
+}
+
