@@ -166,6 +166,8 @@ footer {
 }
 
 #arrow {
+    font-family: 'impact';
+    letter-spacing: 2px;
     height:40px;
     background:blue;
     color:#fff;
@@ -187,8 +189,18 @@ footer {
 }
 
 #title {
-    position: relative;
+    letter-spacing: 2px;
+    font-family: 'impact';
     line-height: 40px;
     padding-left: 30px;
-    font-size: 23px;
+    font-size: 20px;
+}
+
+@font-face {
+	font-family: 'impact';
+	src: url('/assets/impact.ttf');
+}
+
+.accordion.accordion-flush {
+    background-color: rgb(222, 222, 222);
 }
