@@ -1,0 +1,102 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+
+#nav-logo {
+    margin-left: 15px;
+    width: 90px;
+    height: 50px;
+}
+
+#jumbo-logo {
+    width: 250px;
+    height: 150px;
+} 
+
+.nav-link {
+    font-weight: bold;
+}
+
+.nav-link.active-page {
+    text-decoration: underline;
+}
+
+#navv {
+    background-color: rgb(222, 222, 222);
+}
+
+button {
+    margin-left: 25px;
+}
+
+ .container-fluid {
+    padding: 0;
+    
+ }
+ 
+img {
+    width: 250px;
+    height: 150px;
+}
+
+ h2 {
+    color: white;
+    font-weight: bolder;
+ }
+
+ h5 {
+     color: black;
+ }
+
+ .d-block.w-100 {
+     background-color: white;
+ }
+
+#head {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  #mic {
+        object-fit: cover;
+        width: 50px;
+        height: 100px;
+      
+  }
+
+  #title {
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  @media (max-width: 750px){
+    #title {
+    font-size: 50px;
+
+    }
+}
+
+.table {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+footer {
+
+    position:fixed;
+    
+    left: 0;
+    
+    right: 0;
+    
+    bottom: 0;
+    
+}
+
