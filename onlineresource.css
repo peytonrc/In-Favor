@@ -43,9 +43,12 @@ button {
 .container .card {
     border: none;
     background-color: transparent;
+    text-align: center;
 }
 
+
 .btn {
+    margin-top: 15px;
     border: none;
     color: black;
     background-color: rgb(222, 222, 222);
